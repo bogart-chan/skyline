@@ -15,6 +15,6 @@ jobs:
       - name: Update Edge patches
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.EDGE_PATCH_PAT }}
+          
           repository: skyline-emu/edge-patch
           event-type: update-patches
